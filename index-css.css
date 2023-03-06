@@ -1,0 +1,222 @@
+body{
+    padding: 0;
+    margin: 0;
+} 
+.navbar{
+    position: fixed;
+    background-color: black;
+    margin: auto;
+    top: 0;
+    width: 100%;
+    padding: 0;
+}
+.navbar ul{
+    float: right;
+    width: 30%;
+    text-align: center;
+}
+.navbar img{
+    width: auto;
+    height: 70px;
+    margin: 20px 0px 0px 30px;
+    cursor: pointer;
+}
+.navbar li{ 
+    display: inline-block;
+    list-style-type: none;
+    padding: 20px 15px;
+    margin: 0 5px;
+    position: relative;
+}
+.navbar li::after{
+    height: 0px;
+    left: 0;
+    bottom: 0;
+    content: '';
+    background: white;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    transition: .2s;
+}
+.navbar li:hover:after{
+    height: 5px;
+}
+.navbar a{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+/* FIRST SECTION */
+
+.header-content{
+    width: 100%;
+    padding: 150px 0px 300px 0px;
+    background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)),url(universe.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+    background-size: cover;
+}
+.header-content-text{
+    text-align: center;
+    margin-top: 100px;
+    font-family: Arial;
+}
+.header-content-text h1{
+    font-size: 60px;
+    color: white;
+}
+.header-content-text p{
+    color: white;
+    font-size: 20px;
+}
+
+/* SECOND SECTION */
+
+.csharp-section{
+    width: 100%;
+}
+.csharp-content{
+    display:flex;
+}
+.csharp-content-tekst{
+    text-align: left;
+    width: 599px;
+    margin-left: 100px;
+}
+.csharp-content-tekst h2{
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.csharp-content-tekst p{
+    text-align: left;
+    line-height: 35px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.csharp-content img{
+    width: auto;
+    height: 600px;
+}
+
+/* THIRD SECTION */
+.html-css-content{
+    background-color: rgb(34, 28, 28);
+    display: flex;
+    justify-content: space-between;
+}
+.html-css-content img{
+    width: auto;
+    height: 600px;
+}
+.html-css-tekst{
+    width: 599px;
+    text-align: left;
+    margin-left: 70px;
+}
+.html-css-tekst h2{
+    color:white;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.html-css-tekst p{
+    color: white;
+    line-height: 35px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.random-section{
+    width: 100%;
+    padding: 200px 0;
+    background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,0.4)),url(universe2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.random-content{
+    display: grid;  
+    grid-template-columns: repeat(auto-fit,minmax(400px,auto));
+    width: 70%;
+    column-gap: 10px;
+    row-gap: 50px;
+}
+.random-content-tekst{
+    width: 400px; 
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5));
+    display: flex;
+    justify-content: center;
+}
+.random-tekst{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    color: white;
+    text-align: center;
+    margin: 10px 0;
+}
+.random-tekst p{
+    font-size: 18px;
+    font-weight: 700;
+}
+.random-tekst h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.footer-content{
+    padding: 100px 0 30px 0;
+    background-color: rgb(10, 10, 10);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-social{
+    display: flex;
+    justify-content: center;
+}
+.footer-social li{
+    text-align: center;
+    list-style-type: none;
+    width: 110px;
+    padding: 10px 0;
+    margin: 0 5px;
+    border:3px;
+    border-style:dashed;
+    border-color: rgb(41, 134, 255);
+    transition: .2s;
+}
+.footer-social #blue:hover{
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(0, 66, 153);
+}
+.footer-social #lightblue:hover{
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(46, 104, 180);
+}
+.footer-social #tomato:hover{
+    border-color: rgb(255, 255, 255);
+    background-color: tomato;
+}
+.footer-social #red:hover{
+    border-color: rgb(255, 255, 255);
+    background-color: red;
+}
+.footer-social #pink:hover{
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(211, 0, 165);
+}
+.footer-social a{
+    text-decoration: none;
+    padding: 10px 10px;
+    color: white;
+    font-weight: 700;
+}
+.footer-copyright{
+    display: flex;
+    color: white;
+    justify-content: center;
+}

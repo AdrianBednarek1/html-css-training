@@ -1,0 +1,65 @@
+article{
+    margin:0px;
+}
+.aboutme-section{
+        background-image: linear-gradient(rgb(17, 33, 54),rgb(5, 43, 44));
+}
+.aboutme-content{
+    padding: 150px 0;
+    display:inline-flex;
+    justify-content: center;
+    gap:100px;
+}
+.aboutme-content img{
+    width: 25%;
+    height: auto;
+}
+.aboutme-text-container{
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.02));
+    width: 25%;
+    padding: 15px;
+
+}
+.aboutme-text{
+    margin-left: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.aboutme-text h1{
+    font-size: 60px;
+    line-height: 20px;
+}
+.aboutme-text p{
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+}
+.anime-section{
+    background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(anime.jpg);
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+}
+.anime-content{
+    display: flex;
+    justify-content: center;
+}
+.anime-content-text{
+    width: 70%;
+    background-image: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1));
+}
+.anime-text{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.anime-text h1{
+    font-size: 60px;
+}
+.anime-text p{
+    font-size: 30px;
+    line-height: 40px;
+}
+
