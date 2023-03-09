@@ -169,7 +169,7 @@ body{
     font-size: 40px;
     font-weight: 700;
 }
-.footer-content{
+.footer-container{
     padding: 100px 0 30px 0;
     background-color: rgb(10, 10, 10);
     font-family: Arial, Helvetica, sans-serif;
@@ -219,4 +219,7 @@ body{
     display: flex;
     color: white;
     justify-content: center;
+}
+.social-content{
+    margin-bottom: 10px;
 }

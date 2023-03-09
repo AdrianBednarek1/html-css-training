@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .something-random-content{
     display: flex;
     justify-content: center;
@@ -5,7 +9,7 @@
 .something-random-section{
     background-image: linear-gradient(rgb(13, 44, 61),rgb(43, 9, 44));
     padding: 100px 0;
-    width: 50%;
+    width: auto;
 }
 .something-random-text-container{
     width: 50%;
@@ -19,6 +23,7 @@
 }
 .something-random-text h1{
     font-size: 60px;
+    line-height: 2;
     text-align: center;
 }
 .something-random-text p{
@@ -33,9 +38,25 @@
     border-color: rgb(0, 102, 255);
     border-style: dashed;
     width: 25%;
+    float: right;
+    margin-top: 100px;
+    margin-right: 20px;
 }
 .random-aside-text{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
+}
+.random-aside-text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.random-aside-text h1{
+    text-align: center;
+    line-height: 2;
+    font-size: 30px;
+}
+.random-aside-text p{
+    text-align: left;
+    line-height: 1.2;
+    font-size: 20px;
 }
